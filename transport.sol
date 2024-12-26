@@ -38,5 +38,4 @@ contract Car {
         emit EngineStateChanged(isEngineOn);
     }
 
-    // Function to start the car (engine must be on)
-    function startCar() public onlyOwner
+}
